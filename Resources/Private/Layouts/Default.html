@@ -1,0 +1,24 @@
+<html data-namespace-typo3-fluid="true">
+    <!-- Nur wegen dem CSS Importiert-->
+    <head>
+        <link rel="stylesheet" href="Resources/Public/CSS/style.css">
+    </head>
+
+
+
+
+
+    <f:render section="header" optional="true">
+        <f:render partial="header/header" arguments="{_all}" />
+    </f:render>
+
+    <f:render section="main" optional="true">
+        <f:render partial="main/main-one.html" arguments="{_all}" />
+    </f:render>
+
+    <f:render section="footer" optional="true">
+        <f:render partial="footer/footer" arguments="{_all}" />
+    </f:render>
+
+
+</html> 

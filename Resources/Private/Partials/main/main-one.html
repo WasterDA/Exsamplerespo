@@ -1,0 +1,56 @@
+<html data-namespace-typo3-fluid="true">
+
+
+    <div class="bestellmenu">
+        <div class="linksauswahl">
+            <li  class="linksauswahl-item">
+                <form action="" method="post">
+                    <button type="submit" name="fruestueck-button" class="links">
+                        <a class="">Frühstück</a>
+                    </button>
+                </form>
+            </li>
+            <li  class="linksauswahl-item">
+                <form action="" method="post">
+                    <button type="submit" name="burger-button" class="links" value="Burger">
+                        <a class="">Burger</a>
+                    </button>
+                </form>
+            </li>
+            <li  class="linksauswahl-item">
+                <form action="" method="post">
+                    <button type="submit" name="getraenke-button" class="links" value="Getränke">
+                        <a class="">Getränke</a>
+                    </button>
+                </form>
+            </li>
+            <li class="linksauswahl-item">
+                <form action="" method="post">
+                    <button type="submit" name="desert-button" class="links" value="Desert">
+                        <a class="">Desert</a>
+                    </button>
+                </form>
+            </li>
+        </div>
+
+
+        <div class="rechtsauswahl">
+
+            <form action="" method="POST">
+                <div class="bsp-ding">
+                    <input type="hidden" name="id" value="1">
+                    <input type="hidden" name="produktname" value="$produktname">
+                    <input type="hidden" name="preis" value="$preis">
+                    <div class="name">$produktname</div>
+                    <div class="bild" name="bild\"><img src="$bild"/></div>
+                    <div class="preis">$preis</div>
+                    <input type="submit" class="hinzufuegen-button" name="hinzufuegen" value="Hinzufügen">
+                </div>
+            </form>     
+
+
+        </div>
+    </div>
+
+
+</html>
